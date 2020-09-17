@@ -1,0 +1,129 @@
+
+$primary-color: #120A5C;
+$background-color: #F6F7FA;
+$light-text-color: #828282;
+
+// Page Container
+.page-container{
+   display: grid;
+   grid-gap: 1rem;
+}
+
+// Graph
+.graph{
+   display: flex;
+   align-items: center;
+}
+
+.graph-legend{
+   padding-left: .5rem;
+}
+
+.legend-pair{
+   display: flex;
+   padding-bottom: .5rem;
+
+   p{
+      font-size: .8rem;
+   }
+}
+
+.info{
+
+   &-1{
+      background: #FF7F3A;
+   }
+
+   &-2{
+      background: #FEA06E;
+   }
+
+   &-3{
+      background: #FFC8AB;
+   }
+
+   &-4{
+      background: #FFEADF;
+   }
+}
+
+// Requests
+.request-count{
+   font-family: bold-font;
+}
+
+// Revenue
+.half-card-bottom{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto 0;
+}
+
+.numerical-info{
+   display: flex;
+}
+
+.important-number{
+   margin: 0 .2rem;
+   font-size: 2.5rem;
+}
+
+.change-amount{
+   color: green;
+}
+
+// Task Management
+.column{
+
+   &-1{
+      display: none;
+   }
+
+   &-4{
+      display: none ;
+   }
+}
+
+@media screen and (min-width: 600px){
+
+   .page-container{
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .task-management{
+      grid-column: span 2;
+   }
+
+   .column{
+
+      &-1{
+         display: flex;
+      }
+   
+      &-4{
+         display: flex ;
+      }
+   }
+}
+
+@media screen and (min-width: 1024px){
+
+   .page-container{
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   
+}
+
+@media screen and (min-width: 1024px){
+
+   .page-container{
+      grid-template-columns: repeat(4, 1fr);
+   }
+
+   .task-management{
+      grid-column: span 3;
+   }
+   
+}

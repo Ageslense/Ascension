@@ -1,0 +1,59 @@
+$primary-color: #120A5C;
+$background-color: #F6F7FA;
+$light-text-color: #828282;
+$light-border-color: #E0E0E0;
+
+
+// Right Pane Top
+.filter-submit{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 1rem;
+}
+
+.filter{
+   display: flex;
+   flex-direction: column;
+}
+
+.filter-lead{
+   display: flex;
+   color: #FF7F3A;
+}
+
+.filter-name{
+   margin-left: .2rem;
+   font-family: regular-font;
+}
+
+// Employee Cards
+.employee{
+   padding-top: 1rem;
+}
+
+.employee-cards-wrapper{
+   display: grid;
+   grid-gap: 1rem;
+}
+
+@media screen and (min-width: 600px){
+
+   .employee-cards-wrapper{
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media screen and (min-width: 1024px){
+
+   .employee-cards-wrapper{
+      grid-template-columns: repeat(3, 1fr);
+   }
+}
+
+@media screen and (min-width: 1200px){
+
+   .employee-cards-wrapper{
+      grid-template-columns: repeat(5, 1fr);
+   }
+}
