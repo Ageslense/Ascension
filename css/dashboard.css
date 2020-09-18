@@ -48,6 +48,19 @@
   font-family: bold-font;
 }
 
+.slick-arrows {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  left: 5%;
+  top: 40%;
+}
+
 .half-card-bottom {
   display: -webkit-box;
   display: -ms-flexbox;

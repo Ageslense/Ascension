@@ -110,7 +110,7 @@
 
          <div class="card-top">
             <p class="card-name">Employee Distribution</p>
-            <p class="card-more">...</p>
+            <div class="card-more"></div>
          </div>
 
          <div class="card-bottom graph">
@@ -141,7 +141,7 @@
 
          <div class="card-top">
             <p class="card-name">Requests</p>
-            <p class="card-more">...</p>
+            <div class="card-more"></div>
          </div>
 
          <div class="card-bottom spreadsheet-text">
@@ -196,6 +196,15 @@
             <p class="card-name">New Employees</p>
          </div>
 
+         <div class="slick-arrows">
+            <div class="left-arrow">
+               <img src="assets/icons/chevron-left-dark.svg" alt="">
+            </div>
+            <div class="right-arrow">
+               <img src="assets/icons/chevron-right-dark.svg" alt="">
+            </div>
+         </div>
+
          <div class="card-bottom">
             <div class="employees-slider">
                <a href="employees-inner.html" class="employee">
@@ -230,7 +239,7 @@
 
             <div class="card-top">
                <p class="card-name">Monthly Revenue</p>
-               <p class="card-more">...</p>
+               <div class="card-more-light card-more"></div>
             </div>
    
             <div class="half-card-bottom card-bottom">
@@ -251,7 +260,7 @@
    
             <div class="card-top">
                <p class="card-name">Client Satisfaction</p>
-               <p class="card-more">...</p>
+               <div class="card-more-light card-more"></div>
             </div>
    
             <div class="half-card-bottom card-bottom">
@@ -273,7 +282,7 @@
 
          <div class="card-top">
             <p class="card-name">Task Management</p>
-            <p class="card-more">...</p>
+            <div class="card-more"></div>
          </div>
 
          <div class="card-bottom spreadsheet-text">
@@ -419,6 +428,8 @@
    <script type="text/javascript">
       $(document).ready(function(){
         $('.employees-slider').slick({
+           prevArrow: $('.left-arrow'),
+           nextArrow: $('.right-arrow'),
         });
       });
     </script>

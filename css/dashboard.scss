@@ -52,6 +52,16 @@ $light-text-color: #828282;
    font-family: bold-font;
 }
 
+// Slider
+.slick-arrows{
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+   left: 5%;
+   top: 40%;
+}
+
 // Revenue
 .half-card-bottom{
    display: flex;
