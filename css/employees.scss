@@ -5,12 +5,6 @@ $light-border-color: #E0E0E0;
 
 
 // Right Pane Top
-.filter-submit{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   margin-bottom: 1rem;
-}
 
 .filter{
    display: flex;
@@ -52,6 +46,13 @@ $light-border-color: #E0E0E0;
 }
 
 @media screen and (min-width: 1200px){
+
+   .employee-cards-wrapper{
+      grid-template-columns: repeat(4, 1fr);
+   }
+}
+
+@media screen and (min-width: 1400px){
 
    .employee-cards-wrapper{
       grid-template-columns: repeat(5, 1fr);

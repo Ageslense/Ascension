@@ -1,12 +1,14 @@
 @font-face{
    font-family: bold-font;
-   src: url(../assets/fonts/Proxima\ Nova\ Alt\ Bold.otf);
+   src: url(../assets/fonts/Bold.otf);
 }
+
 @font-face{
    font-family: regular-font;
-   src: url(../assets/fonts/ProximaNova-Regular.otf
+   src: url(../assets/fonts/Regular.otf);
 }
+
 @font-face{
    font-family: ligth-font;
-   src: url(../assets/fonts/Proxima\ Nova\ Alt\ Light.otf);
+   src: url(../assets/fonts/Light.otf);
 }

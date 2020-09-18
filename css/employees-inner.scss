@@ -1,0 +1,68 @@
+$primary-color: #120A5C;
+$background-color: #F6F7FA;
+$light-text-color: #828282;
+$light-border-color: #E0E0E0;
+$btn-color: #7161EF;
+
+// Right Pane Menu
+.right-pane-menu{
+   flex-direction: column;
+}
+
+.tab-change{
+   flex-wrap: wrap;
+}
+
+// Employee Info
+.employee-info-card{
+   padding: 1rem 0;
+}
+
+.employee-text{
+   border-bottom: 1px solid $light-border-color;
+}
+
+.employee-location-department{
+   padding-top: .5rem;
+}
+
+.info-line{
+   display: flex;
+   justify-content: space-between;
+   height: 2rem;
+   line-height: 2rem;
+   padding: 0 1rem;
+}
+
+// Form Styling
+.employee-form-wrapper{
+   padding: 1rem;
+}
+
+.form{
+   padding-top: 1rem;
+}
+
+@media screen and (min-width: 600px){
+
+   .form{
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media screen and (min-width: 1024px){
+
+
+   .all-cards{
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   .employee-form-wrapper{
+      grid-column: span 2;
+      padding: 1.5rem;
+   }
+
+   .right-pane-menu{
+      flex-direction: row;
+   }
+}

@@ -3,6 +3,8 @@ $primary-color: #120A5C;
 $background-color: #F6F7FA;
 $light-text-color: #828282;
 $light-border-color: #E0E0E0;
+$form-input-color: #F2F2F2;
+$btn-color: #7161EF;
 
 
 // // General Styling
@@ -28,6 +30,10 @@ img{
    max-width: 100%;
 }
 
+li{
+   list-style: none;
+}
+
 // // Utilities
 
 .container{
@@ -48,7 +54,7 @@ img{
 
 .btn{
    padding: .5rem;
-   background: #7161EF;
+   background: $btn-color;
    color: #fff;
    border-radius: 5px;
 }
@@ -57,6 +63,7 @@ img{
 .card{
    position: relative;
    display: flex;
+   overflow: hidden;
    flex-direction: column;
    background: #fff;
    border: 1px solid $light-border-color;
@@ -136,6 +143,7 @@ img{
 }
 
 .employee-text{
+   text-align: center;
    padding-bottom: 1rem;
    line-height: 1.5;
 
@@ -162,6 +170,31 @@ img{
    border-radius: 0 10px 0 5px;
    padding: .5rem;
    margin-bottom: .5rem;
+}
+
+// Form Styling
+.form{
+   display: grid;
+   grid-gap: 1.5rem;
+   height: 100%;
+}
+
+.form-pair{
+   display: flex;
+   flex-direction: column;
+}
+
+.form-label{
+   color: $light-text-color;
+   padding-bottom: .5rem;
+}
+
+.form-input{
+   background: $form-input-color;
+   border: none;
+   border-radius: 5px;
+   height: 1.5rem;   
+   line-height: 1.5rem;
 }
 
 // Spreadsheet
@@ -216,7 +249,7 @@ img{
 .priority{
 
    &-high{
-      background: #7161EF;
+      background: $btn-color;
    }
 
    &-med{
@@ -250,6 +283,31 @@ img{
 
 .review{
    background: #FF56DA;
+}
+
+// Right Pane Top
+.right-pane-menu{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 1rem;
+}
+
+.tab-change{
+   display: flex;
+   color: $btn-color;
+   font-family: regular-font;
+}
+
+.tab{
+   margin-right: 1.5rem;
+   margin-bottom: .8rem;
+   padding-bottom: .2rem;
+}
+
+.current-tab{
+   color: #FF7F3A;
+   border-bottom: 1px solid #FF7F3A;
 }
 
 

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Reanna Nixon</title>
+   <link rel="stylesheet" href="css/fonts.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/employees-inner.css">
+</head>
+<body>
+
+   <!-- Navbar -->
+   <nav class=" navbar navbar-collapsed">
+
+         <a href="#" class="navbar-logo"><img src="assets/img/main-logo.svg" alt=""></a>
+
+         <div class="collapse-button">
+            <img src="assets/icons/navbar-collapse.svg" alt="">
+         </div>
+
+         <div class="navbar-items">
+            <a href="dashboard.html" class="navbar-item">
+               <div class="navbar-item-icon">
+                  <img src="assets/icons/dashboard.svg" alt=""> 
+               </div>
+               <p>Dashboard</p>
+            </a>
+            <a href="employees.html" class="navbar-item">
+               <div class="navbar-item-icon">
+                  <img src="assets/icons/employees.svg" alt="">
+               </div>
+                <p>Employees</p>
+            </a>
+            <a href="time-off.html" class="navbar-item">
+               <div class="navbar-item-icon">
+                  <img src="assets/icons/time-off.svg" alt="">
+               </div>
+                <p>Time Off</p>
+            </a>
+            <a href="reports.html" class="navbar-item">
+               <div class="navbar-item-icon">
+                  <img src="assets/icons/reports.svg" alt="">
+               </div>
+                <p>Reports</p>
+            </a>
+            <a href="calendar.html" class="navbar-item">
+               <div class="navbar-item-icon">
+                  <img src="assets/icons/calendar.svg" alt="">
+               </div>
+                <p>Calendar</p>
+            </a>
+            <a href="setting.html" class="navbar-item">
+               <div class="navbar-item-icon">
+                  <img src="assets/icons/settings.svg" alt="">
+               </div>
+                <p>Settings</p>
+            </a>
+         </div>
+
+         <div class="navbar-bottom">
+            <a href="support.html" class="navbar-item">
+               <div class="navbar-item-icon">
+                  <img src="assets/icons/support.svg" alt="">
+               </div>
+               <p>Support</p>
+            </a>
+         </div>
+
+      
+   </nav>
+
+   <div class="right-pane">
+
+        <!-- Top Bar -->
+   <section class="top-bar container">
+         <h1 class="lead">Employees</h1>
+
+         <div class="top-bar-options">
+            <div class="search-box">
+               <input type="text" class="top-search">
+               <div class="search-btn">
+                  <img src="assets/icons/search.svg" alt="">
+               </div>
+            </div>
+
+            <div class="notifications-btn">
+               <img src="assets/icons/bell.svg" alt="">
+            </div>
+
+            <div class="profile">
+               <p class="profile-name">Ceren Güney</p>
+               <div class="profile-picture">
+                  <img src="assets/img/ProfilePic.png" alt="">
+               </div>
+            </div>
+
+            <div class="more-options-btn">
+               <img src="assets/icons/chevron-down.svg" alt="">
+            </div>
+         </div>
+   </section>
+
+   <section class="page-container container">
+
+      <div class="right-pane-menu">
+
+         <ul class="tab-change">
+            <li class="tab current-tab">Overall</li>
+            <li class="tab">Career</li>
+            <li class="tab">Personal Info</li>
+            <li class="tab">Transactions</li>
+            <li class="tab">Time Off</li>
+            <li class="tab">Payroll</li>
+            <li class="tab">Other <img src="assets/icons/chevron-down-dark.svg" alt=""></li>
+         </ul>
+
+         <div class="btn">
+            <p>Save</p>
+         </div>
+
+      </div>
+    
+      <div class="card-wrapper all-cards">
+
+         <div class="card-wrapper">
+            <div class="card employee-photo">
+               <img src="assets/img/employees-inner/employee-img.png" alt="">
+            </div>
+   
+            <div class="card employee-info-card">
+               <div class="card-top-left">
+                  <div class="position-label">
+                     <p>CDD</p>
+                  </div>
+               </div>
+   
+               <div class="employee-text">
+                  <h3>Reanna Nixon</h3>
+                  <p>Senior Industrial Designer</p>
+               </div>
+   
+               <div class="employee-location-department">
+                  <div class="info-line">
+                     <p class="info-tag">Location</p>
+                     <p>Paris, France</p>
+                  </div>
+   
+                  <div class="info-line">
+                     <p class="info-tag">Department</p>
+                     <p>Design</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="card employee-form-wrapper">
+            <h1 class="lead">General Info</h1>
+
+            <div class="form">
+
+               <div class="form-pair">
+                  <label class="form-label" for="first-name">
+                     First Name
+                  </label>
+
+                  <input type="text" id="first-name" class="form-input">
+               </div>
+
+               <div class="form-pair">
+                  <label class="form-label" for="last-name">
+                     Last Name
+                  </label>
+
+                  <input type="text" id="last-name" class="form-input">
+               </div>
+
+               <div class="form-pair">
+                  <label class="form-label" for="email">
+                     Email (Corporate)
+                  </label>
+
+                  <input type="email" id="email" class="form-input">
+               </div>
+
+               <div class="form-pair">
+                  <label class="form-label" for="email-personal">
+                     Email (Personal)
+                  </label>
+
+                  <input type="text" id="email-personal" class="form-input">
+               </div>
+
+               <div class="form-pair">
+                  <label class="form-label" for="phone">
+                     Phone Number (Corporate)
+                  </label>
+
+                  <input type="text" id="phone" class="form-input">
+               </div>
+
+               <div class="form-pair">
+                  <label class="form-label" for="phone-personal">
+                     Phone Number (Personal)
+                  </label>
+
+                  <input type="text" id="phone-personal" class="form-input">
+               </div>
+
+               <div class="form-pair">
+                  <label class="form-label" for="employement-start">
+                     Employement Start Date
+                  </label>
+
+                  <input type="date" id="employement-start" class="form-input">
+               </div>
+
+               <div class="form-pair">
+                  <label class="form-label" for="employement-type">
+                     Employement Type
+                  </label>
+
+                  <select class="form-input" name="employement-type" id="employement-type">
+                     <option value="full-time">Full-time</option>
+                     <option value="part-time">Part-time</option>
+                  </select>
+               </div>
+
+               <div class="form-pair">
+                  <label class="form-label" for="working-days">
+                     Working Day Calendar
+                  </label>
+
+                  <select class="form-input" name="working-days" id="working-days">
+                     <option value="general">General Working Calendar</option>
+                     <option value="custom">Custom</option>
+                  </select>
+               </div>
+
+               <div class="form-pair">
+                  <label class="form-label" for="access">
+                     Access Type
+                  </label>
+
+                  <select class="form-input" name="access" id="access">
+                     <option value="employee">Employee</option>
+                     <option value="manager">Manager</option>
+                  </select>
+               </div>
+          
+            </div>
+         </div>
+      </div>
+   </section>
+
+   </div>
+
+</body>
+</html>
